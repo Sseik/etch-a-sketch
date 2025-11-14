@@ -34,5 +34,11 @@ button {
     padding: 10px;
     background-color: green;
     color: white;
+}
 
+@media screen and (max-device-width: 600px) {
+    #container {
+        width: 95vw;
+        height: 95vw;
+    }
 }
